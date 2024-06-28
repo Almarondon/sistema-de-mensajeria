@@ -1,0 +1,90 @@
+.main {
+  display: flex;
+  flex-direction: row;
+  background-color: cornflowerblue;
+  height: 100vh;
+}
+
+.section-contact {
+  display: flex;
+  flex-direction: column;
+  background-color: gray;
+  min-width: 250px;
+}
+
+.container-principal-contact {
+  display: flex;
+  padding: 1px;
+  background-color: pink;
+}
+.principal-contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 5px;
+  padding: 3px 10px;
+  background-color: green;
+}
+
+.contact-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 30px;
+}
+
+.container-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  color: white;
+  background-color: blueviolet;
+}
+
+.container-contact {
+  display: flex;
+  flex-direction: column;
+  padding: 1px;
+  background-color: orange;
+}
+
+.contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px 5px;
+  padding: 5px 10px;
+  background-color: rgb(255, 225, 0);
+}
+.contact img {
+  width: 40px;
+  height: 40px;
+  border-radius: 30px;
+}
+
+h5 {
+  margin: 0;
+}
+h6 {
+  margin: 0;
+}
+
+/*-------- Networking */
+
+.container-networking {
+  width: 100%;
+  background-color: white;
+}
+
+/* .nertworking-img {
+  display: flex;
+  justify-content: center;
+  height: 300px;
+} */
+.description-networking {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

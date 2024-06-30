@@ -1,21 +1,28 @@
 .main {
   display: flex;
   flex-direction: row;
-  background-color: cornflowerblue;
+
   height: 100vh;
+  border: 1px;
+  border-color: black;
+  border-style: solid;
 }
 
 .section-contact {
   display: flex;
   flex-direction: column;
-  background-color: gray;
   min-width: 250px;
+  border-right: 1px;
+  border-right-color: black;
+  border-right-style: solid;
 }
 
 .container-principal-contact {
   display: flex;
   padding: 1px;
-  background-color: pink;
+  border-bottom: 1px;
+  border-bottom-color: black;
+  border-bottom-style: solid;
 }
 .principal-contact {
   display: flex;
@@ -24,7 +31,6 @@
   width: 100%;
   margin: 5px;
   padding: 3px 10px;
-  background-color: green;
 }
 
 .contact-img {
@@ -37,25 +43,31 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 50px;
+  padding: 40px;
   color: white;
-  background-color: blueviolet;
+  border-bottom: 1px;
+  border-bottom-color: black;
+  border-bottom-style: solid;
 }
-
+button {
+  background-color: plum;
+  padding: 10px;
+}
 .container-contact {
   display: flex;
   flex-direction: column;
   padding: 1px;
-  background-color: orange;
 }
 
 .contact {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
-  margin: 5px 5px;
   padding: 5px 10px;
-  background-color: rgb(255, 225, 0);
+  gap: 20px;
+  border-bottom: 1px;
+  border-bottom-color: black;
+  border-bottom-style: solid;
 }
 .contact img {
   width: 40px;
@@ -70,21 +82,29 @@ h6 {
   margin: 0;
 }
 
+p {
+  margin: 0;
+}
+
 /*-------- Networking */
 
 .container-networking {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   width: 100%;
-  background-color: white;
 }
 
-/* .nertworking-img {
-  display: flex;
-  justify-content: center;
-  height: 300px;
-} */
+.nertworking-img {
+  width: 300px;
+}
 .description-networking {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-family: "Lucida Sans";
+  color: rgb(32, 30, 30);
+  font-size: 16px;
 }
